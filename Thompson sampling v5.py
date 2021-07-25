@@ -1,3 +1,6 @@
+#Example code from Bayesian Machine Learning - AB Testing course. The aim is to find the most profitable bandit with the least possible plays.
+#To achieve this, the code uses Thompson Sampling; updating the probability to selecting each bandit with each iteration until the optimal bandit is found.
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import beta
